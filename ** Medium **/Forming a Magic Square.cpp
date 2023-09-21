@@ -17,8 +17,7 @@ bool isMagicSquare(vector<vector<int>> s) {
     return pass;
 }
 
-void
- dfs(vector<vector<int>> s, int vis[10], int idx, int cost) {
+void dfs(vector<vector<int>> s, int vis[10], int idx, int cost) {
     if (idx == 9) {
         if (isMagicSquare(s)) ans = min(ans, cost);
         return;
