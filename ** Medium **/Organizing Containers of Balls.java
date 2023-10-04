@@ -34,7 +34,6 @@ class Result {
         for (int i = 0; i < n; i ++) if (freq[i] != sums[i]) pass = false;
         return pass ? "Possible" : "Impossible";
     }
-
 }
 
 public class Solution {
